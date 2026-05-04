@@ -17,7 +17,7 @@ const specialOffers = products.filter((p) => p.offer).slice(0, 4);
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=2000&q=85",
+    image: "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=2000&q=85",
     alt: "Luxury carpet showroom display",
     tag: "30+ years experience",
     headline: "Quality carpets at the right price",
@@ -35,7 +35,7 @@ const heroSlides = [
     secondaryCta: { label: "Shop LVT", href: "/category/lvt" },
   },
   {
-    image: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=2000&q=85",
+    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2000&q=85",
     alt: "Lush green artificial grass garden",
     tag: "New in store",
     headline: "Artificial grass that stays green all year",

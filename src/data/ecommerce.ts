@@ -26,13 +26,13 @@ export type Product = {
 };
 
 const media = {
-  carpetA: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1500&q=85",
-  carpetB: "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1500&q=85",
+  carpetA: "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1500&q=85",
+  carpetB: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1500&q=85",
   laminateA: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=85",
   laminateB: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1500&q=85",
   lvtA: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1500&q=85",
   vinylA: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1500&q=85",
-  grassA: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1500&q=85",
+  grassA: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1500&q=85",
   showroomA: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85"
 };
 
