@@ -1,152 +1,151 @@
 import {
-  Bath,
-  ShowerHead,
-  Droplets,
-  Wrench,
+  Layers,
+  TreePine,
+  Ruler,
+  Scissors,
   Clock,
   MapPin,
   PackageCheck,
-  Ruler,
   Sparkles,
   Truck,
   UsersRound
 } from "lucide-react";
 
 export const business = {
-  name: "K.E.S. Bathrooms",
-  tagline: "Premium bathroom design and installation showroom.",
-  address: "39-41 High St, Clay Cross, Chesterfield, S45 9DX",
-  phone: "01246 861111", // Standard placeholder if unknown
-  email: "hello@kesbathrooms.co.uk",
-  rating: "5.0",
-  reviews: "Expert design & installation",
+  name: "Right Price Carpets",
+  tagline: "Quality carpets & flooring at unbeatable prices.",
+  address: "20 Cumberland Road, Linthorpe, Middlesbrough, TS5 6HZ",
+  phone: "01642 871888",
+  email: "info@right-pricecarpets.co.uk",
+  rating: "4.8",
+  reviews: "30+ years in the trade",
   hours: [
     ["Monday", "9:00 AM - 5:00 PM"],
     ["Tuesday", "9:00 AM - 5:00 PM"],
     ["Wednesday", "9:00 AM - 5:00 PM"],
     ["Thursday", "9:00 AM - 5:00 PM"],
     ["Friday", "9:00 AM - 5:00 PM"],
-    ["Saturday", "10:00 AM - 4:00 PM"],
+    ["Saturday", "9:30 AM - 4:00 PM"],
     ["Sunday", "Closed"]
   ],
   sourceNote:
-    "Expert bathroom fitter and showroom in Chesterfield."
+    "Family-run flooring specialists in Middlesbrough with over 30 years experience."
 };
 
 export const sourcePages = [];
 
 export const media = {
-  hero: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=2200&q=85",
-  showroom: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1800&q=85",
-  bath: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1800&q=85",
-  shower: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1800&q=85",
-  vanity: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=1800&q=85",
-  tiles: "https://images.unsplash.com/photo-1520699049698-acd2fce18736?auto=format&fit=crop&w=1800&q=85",
-  tap: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1800&q=85",
-  towelRail: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=85",
-  dining: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1800&q=85",
-  decor: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1800&q=85",
-  carpet: "https://images.unsplash.com/photo-1520699049698-acd2fce18736?auto=format&fit=crop&w=1800&q=85",
-  bedroom: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1800&q=85",
-  sofaWall: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=1800&q=85"
+  hero: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=2200&q=85",
+  showroom: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1800&q=85",
+  bath: "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1800&q=85",
+  shower: "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1800&q=85",
+  vanity: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85",
+  tiles: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85",
+  tap: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85",
+  towelRail: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1800&q=85",
+  dining: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85",
+  decor: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1800&q=85",
+  carpet: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1800&q=85",
+  bedroom: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1800&q=85",
+  sofaWall: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85"
 };
 
 export const navigation = [
   { label: "Home", href: "/" },
-  { label: "Design Process", href: "/about" },
-  { label: "Bathrooms", href: "/collection" },
-  { label: "Showers", href: "/services" },
+  { label: "About Us", href: "/about" },
+  { label: "Flooring", href: "/collection" },
+  { label: "Services", href: "/services" },
   { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" }
 ];
 
 export const collections = [
   {
-    title: "Freestanding Baths",
-    description: "Elegant centerpieces for luxury bathroom spaces.",
-    price: "From £799",
-    image: media.bath,
-    icon: Bath
+    title: "Carpets",
+    description: "Over 30 rolls in stock from leading UK manufacturers.",
+    price: "From £6.99/sqm",
+    image: media.carpet,
+    icon: Layers
   },
   {
-    title: "Walk-in Showers",
-    description: "Modern, accessible shower enclosures and wet rooms.",
-    price: "From £599",
-    image: media.shower,
-    icon: ShowerHead
+    title: "Laminate Flooring",
+    description: "Supply and professionally fitted laminate flooring.",
+    price: "From £12.99/sqm",
+    image: media.showroom,
+    icon: Ruler
   },
   {
-    title: "Vanity Units",
-    description: "Practical storage with premium basin finishes.",
-    price: "From £299",
-    image: media.vanity,
-    icon: Droplets
-  },
-  {
-    title: "Designer Tiles",
-    description: "Porcelain and ceramic wall and floor tiles.",
-    price: "From £25/sqm",
+    title: "LVT Flooring",
+    description: "Luxury vinyl tiles — waterproof, durable, and stylish.",
+    price: "From £18.99/sqm",
     image: media.tiles,
     icon: Sparkles
+  },
+  {
+    title: "Artificial Grass",
+    description: "Low-maintenance artificial grass for gardens and patios.",
+    price: "From £9.99/sqm",
+    image: media.dining,
+    icon: TreePine
   }
 ];
 
 export const services = [
   {
-    title: "3D Bathroom Design",
-    description: "Visualize your new bathroom before installation with our advanced 3D design software.",
+    title: "Supply & Fit",
+    description: "Professional fitting service for all carpet and flooring types. Over 30 years trade experience.",
     icon: Ruler
   },
   {
-    title: "Expert Installation",
-    description: "Our experienced fitting team handles plumbing, tiling, and electricals seamlessly.",
-    icon: Wrench
+    title: "Carpet Binding",
+    description: "In-store binding machine to turn waste carpet into rugs, doormats, or caravan flooring.",
+    icon: Scissors
   },
   {
-    title: "Showroom Consultation",
-    description: "Visit our Clay Cross showroom to explore fixtures, tiles, and layouts in person.",
+    title: "Free Measuring",
+    description: "We'll visit your home to measure up and advise on the best flooring for each room.",
     icon: UsersRound
   }
 ];
 
 export const reasons = [
-  { title: "Full Service", description: "From initial design to final plumbing, we handle everything." },
-  { title: "Local Showroom", description: "See the quality of our suites in our Clay Cross showroom." },
-  { title: "Experienced Fitters", description: "Professional installation guaranteed to last." },
-  { title: "Premium Brands", description: "We supply top-tier bathroom and shower brands." }
+  { title: "30+ Years", description: "Over three decades of experience in the carpet and flooring trade." },
+  { title: "Family Run", description: "A friendly, personal service you won't get from big chains." },
+  { title: "Unbeatable Prices", description: "Right price, every time. Competitive pricing on all stock." },
+  { title: "Leading Brands", description: "Stockists of Cormar, Associated Weavers, Regency and Abingdon." }
 ];
 
 export const testimonials = [
   {
-    quote: "K.E.S. completely transformed our bathroom. The design was brilliant and the fitters were so tidy.",
+    quote: "Brilliant service from start to finish. The carpet looks fantastic and the price was unbeatable.",
     name: "Verified Customer",
-    detail: "Full Installation"
+    detail: "Carpet Supply & Fit"
   },
   {
-    quote: "Great showroom with plenty of choices. The walk-in shower is exactly what we needed.",
+    quote: "Had a rug made from leftover carpet using their binding machine. Such a great idea and really well done.",
     name: "Verified Customer",
-    detail: "Shower Enclosure"
+    detail: "Carpet Binding"
   }
 ];
 
 export const gallery = [
-  { src: media.hero, title: "Modern Bathroom", span: "md:col-span-2 md:row-span-2" },
-  { src: media.bath, title: "Freestanding Baths", span: "" },
-  { src: media.shower, title: "Walk-in Showers", span: "" },
-  { src: media.vanity, title: "Vanity Units", span: "md:col-span-2" },
-  { src: media.tiles, title: "Tiles & Flooring", span: "" },
-  { src: media.showroom, title: "Our Showroom", span: "" }
+  { src: media.hero, title: "Luxury Carpet", span: "md:col-span-2 md:row-span-2" },
+  { src: media.showroom, title: "Our Showroom", span: "" },
+  { src: media.tiles, title: "LVT Flooring", span: "" },
+  { src: media.dining, title: "Artificial Grass", span: "md:col-span-2" },
+  { src: media.carpet, title: "Carpet Rolls", span: "" },
+  { src: media.bedroom, title: "Fitted Flooring", span: "" }
 ];
 
 export const stats = [
-  { value: "Full", label: "Design Service" },
-  { value: "Expert", label: "Installation" },
-  { value: "Clay Cross", label: "Showroom" },
-  { value: "Premium", label: "Fixtures" }
+  { value: "30+", label: "Years Experience" },
+  { value: "Family", label: "Run Business" },
+  { value: "Boro", label: "Proud Sponsors" },
+  { value: "Snap", label: "Finance Available" }
 ];
 
 export const contactCards = [
   { title: "Visit the showroom", value: business.address, icon: MapPin },
   { title: "Call", value: business.phone, icon: Clock },
-  { title: "Consultations", value: "Available on request", icon: Ruler }
+  { title: "Free Measuring", value: "Book a home visit", icon: Ruler }
 ];

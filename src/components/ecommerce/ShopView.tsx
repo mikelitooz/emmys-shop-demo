@@ -62,8 +62,8 @@ export function ShopView({
       </h1>
       <p className="mt-2 text-sm text-taupe">
         {offerOnly
-          ? "Handpicked offers on sofas, beds, dining and decor from K.E.S. Bathrooms."
-          : "Browse sofas, beds, dining, decor and more from K.E.S. Bathrooms."}
+          ? "Handpicked offers on carpets, laminate, LVT and vinyl from Right Price Carpets."
+          : "Browse carpets, laminate, LVT, vinyl and more from Right Price Carpets."}
       </p>
 
       {/* ── Filter panel ─────────────────────────── */}

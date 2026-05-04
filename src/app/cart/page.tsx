@@ -3,7 +3,7 @@ import { CartPageView } from "@/components/ecommerce/CartPageView";
 
 export const metadata: Metadata = {
   title: "Cart",
-  description: "View and manage your K.E.S. Bathrooms basket."
+  description: "View and manage your Right Price Carpets basket."
 };
 
 export default function CartPage() {

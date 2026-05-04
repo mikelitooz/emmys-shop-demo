@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { HomeView } from "@/components/sections/HomeView";
 
 export const metadata: Metadata = {
-  title: "K.E.S. Bathrooms | Premium Furniture Showroom Chesterfield",
+  title: "Right Price Carpets | Quality Carpets & Flooring Middlesbrough",
   description:
-    "Explore sofas, beds, wardrobes, carpets, dining furniture and home styling from a polished demo website for K.E.S. Bathrooms."
+    "Explore sofas, beds, wardrobes, carpets, dining furniture and home styling from a polished demo website for Right Price Carpets."
 };
 
 export default function HomePage() {

@@ -17,39 +17,39 @@ const specialOffers = products.filter((p) => p.offer).slice(0, 4);
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=2000&q=85",
-    alt: "Luxury walk-in shower in a modern bathroom",
-    tag: "New collection",
-    headline: "Premium bathroom fittings for K.E.S. homes",
-    copy: "Walk-in showers, freestanding baths, and luxury vanities curated for your space. Visit our Clay Cross showroom or shop online.",
-    primaryCta: { label: "Shop all bathrooms", href: "/shop" },
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=2000&q=85",
+    alt: "Luxury carpet showroom display",
+    tag: "30+ years experience",
+    headline: "Quality carpets at the right price",
+    copy: "Over 30 rolls in stock from Cormar, Regency, Abingdon and more. Visit our Middlesbrough showroom or call for a free measure.",
+    primaryCta: { label: "Shop all flooring", href: "/shop" },
     secondaryCta: { label: "View offers", href: "/shop?offer=true" },
   },
   {
-    image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=2000&q=85",
-    alt: "Modern freestanding bath",
-    tag: "Bath event",
-    headline: "Freestanding baths from £499",
-    copy: "Statement freestanding and corner baths crafted for restful soaking. Free local delivery available.",
-    primaryCta: { label: "Shop baths", href: "/category/baths" },
-    secondaryCta: { label: "Shop showers", href: "/category/showers" },
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85",
+    alt: "Beautiful oak laminate flooring in a living room",
+    tag: "Supply & fit",
+    headline: "Laminate flooring from £12.99/sqm",
+    copy: "Professional supply and fitting of laminate and LVT flooring. Realistic wood and stone effects at unbeatable prices.",
+    primaryCta: { label: "Shop laminate", href: "/category/laminate" },
+    secondaryCta: { label: "Shop LVT", href: "/category/lvt" },
   },
   {
-    image: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=2000&q=85",
-    alt: "Luxury bathroom vanity unit",
-    tag: "Vanity inspiration",
-    headline: "Vanities built for everyday luxury",
-    copy: "Wall-hung units, double basins, and statement taps in matte black and brushed brass finishes.",
-    primaryCta: { label: "Shop vanities", href: "/category/vanities" },
+    image: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=2000&q=85",
+    alt: "Lush green artificial grass garden",
+    tag: "New in store",
+    headline: "Artificial grass that stays green all year",
+    copy: "UV-stabilised, quick-draining artificial grass for gardens, play areas and balconies. Call in to see our range.",
+    primaryCta: { label: "Shop grass", href: "/category/artificial-grass" },
     secondaryCta: { label: "Shop all", href: "/shop" },
   },
 ];
 
 const trustSignals = [
-  { icon: ShieldCheck, label: "Quality craftsmanship" },
-  { icon: Truck, label: "Free local delivery" },
-  { icon: CreditCard, label: "0% finance available" },
-  { icon: Clock, label: "Open 7 days a week" },
+  { icon: ShieldCheck, label: "30+ years experience" },
+  { icon: Truck, label: "Free measuring service" },
+  { icon: CreditCard, label: "Snap finance available" },
+  { icon: Clock, label: "Family-run business" },
 ];
 
 /* ── Slider Variants ────────────────────────────── */
@@ -277,16 +277,16 @@ export function HomeView() {
         <div className="relative overflow-hidden rounded-card bg-forest px-8 py-10 text-center md:py-12">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=30')] bg-cover bg-center opacity-15" />
           <div className="relative z-10">
-            <p className="text-xs font-bold uppercase tracking-widest text-wheat">K.E.S. Bathrooms</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-wheat">Right Price Carpets</p>
             <h2 className="mt-2 font-display text-3xl font-bold text-white sm:text-4xl md:text-5xl">
-              Design your dream bathroom in one basket
+              Floor your whole home for less
             </h2>
             <p className="mx-auto mt-3 max-w-lg text-sm leading-7 text-white/70">
-              Mix categories and unlock bundle pricing. Baths, showers, vanities and brassware — all in one place.
+              Mix categories and unlock bundle pricing. Carpets, laminate, LVT and vinyl — all under one roof.
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <Link href="/shop" className="inline-flex items-center gap-2 rounded-lg bg-wheat px-6 py-3 text-sm font-bold text-forest transition-colors hover:bg-wheat/90">
-                <Sofa className="h-4 w-4" /> Shop the collection
+                <Sofa className="h-4 w-4" /> Shop all flooring
               </Link>
               <Link href="/shop?offer=true" className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10">
                 View offers
@@ -366,7 +366,7 @@ export function HomeView() {
             First access to new collections & offers
           </h3>
           <p className="mt-2 text-sm text-taupe">
-            Sign up for product drops, room inspiration and seasonal sale updates from K.E.S. Bathrooms.
+            Sign up for new stock alerts, flooring tips and seasonal sale updates from Right Price Carpets.
           </p>
           <form className="mx-auto mt-6 flex max-w-md gap-2">
             <label htmlFor="newsletter" className="sr-only">Email address</label>

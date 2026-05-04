@@ -20,17 +20,17 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yorkshire-home-interiors-demo.vercel.app"),
+  metadataBase: new URL("https://right-price-carpets-demo.vercel.app"),
   title: {
-    default: "K.E.S. Bathrooms | Furniture & Home Styling for Chesterfield",
-    template: "%s | K.E.S. Bathrooms",
+    default: "Right Price Carpets | Carpets & Flooring for Middlesbrough",
+    template: "%s | Right Price Carpets",
   },
   description:
-    "Handpicked sofas, beds, dining sets, wardrobes and home decor for Chesterfield and South K.E.S. homes. Visit our High St showroom or shop online.",
+    "Quality carpets, laminate, LVT flooring and artificial grass for Middlesbrough and Teesside homes. Visit our Middlesbrough showroom or shop online.",
   openGraph: {
-    title: "K.E.S. Bathrooms | Furniture & Home Styling for Chesterfield",
+    title: "Right Price Carpets | Carpets & Flooring for Middlesbrough",
     description:
-      "Browse sofas, beds, dining, decor and complete your order. Handpicked furniture for K.E.S. homes.",
+      "Browse carpets, laminate, LVT, vinyl and artificial grass. Quality flooring for Teesside homes.",
     type: "website",
   },
 };

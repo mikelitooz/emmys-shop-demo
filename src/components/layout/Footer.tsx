@@ -5,7 +5,7 @@ import { business } from "@/data/site";
 
 const trustBadges = [
   { icon: ShieldCheck, label: "Quality craftsmanship guaranteed" },
-  { icon: Truck, label: "Free Chesterfield delivery on selected lines" },
+  { icon: Truck, label: "Free measuring service on selected lines" },
   { icon: Clock, label: "Open 7 days a week" },
 ];
 
@@ -29,11 +29,11 @@ export function Footer() {
         {/* Brand */}
         <div>
           <Link href="/" className="block">
-            <span className="font-display text-2xl font-bold text-white">K.E.S.</span>{" "}
+            <span className="font-display text-2xl font-bold text-white">Right Price</span>{" "}
             <span className="font-display text-2xl font-light text-white">Home Interiors</span>
           </Link>
           <p className="mt-3 text-sm leading-7">
-            Handpicked furniture, carpets and home styling for Chesterfield and South K.E.S. homes. Visit our High St showroom.
+            Quality carpets, laminate, LVT and flooring for Middlesbrough and Teesside homes. Visit our Middlesbrough showroom.
           </p>
           <div className="mt-4 space-y-1.5 text-sm">
             <p className="flex items-center gap-2">
@@ -89,7 +89,7 @@ export function Footer() {
 
       {/* ── Bottom bar ────────────────────────────── */}
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-ivory/40 sm:px-6 lg:px-8">
-        <p>© {new Date().getFullYear()} K.E.S. Bathrooms. All rights reserved. 264 High St, Chesterfield S2 4DL.</p>
+        <p>© {new Date().getFullYear()} Right Price Carpets. All rights reserved. 20 Cumberland Road, Linthorpe, Middlesbrough TS5 6HZ.</p>
       </div>
     </footer>
   );

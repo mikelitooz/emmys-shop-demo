@@ -3,7 +3,7 @@ import { ContactView } from "@/components/sections/ContactView";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact K.E.S. Bathrooms, view opening hours and plan a showroom visit in Chesterfield."
+  description: "Contact Right Price Carpets, view opening hours and plan a showroom visit in Middlesbrough."
 };
 
 export default function ContactPage() {

@@ -12,7 +12,7 @@ export function CheckoutView() {
 
   const onApplyPromo = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (promoCode.trim().toLowerCase() === "kes10") {
+    if (promoCode.trim().toLowerCase() === "rpc10") {
       setPromoMessage("Promo applied: 10% off selected lines (demo placeholder).");
       return;
     }
@@ -83,7 +83,7 @@ export function CheckoutView() {
             <Lock className="h-4 w-4" /> Place order
           </button>
           <p className="mt-3 flex items-center justify-center gap-1.5 text-[11px] text-taupe">
-            <ShieldCheck className="h-3.5 w-3.5" /> Secure checkout · K.E.S. Bathrooms
+            <ShieldCheck className="h-3.5 w-3.5" /> Secure checkout · Right Price Carpets
           </p>
         </aside>
       </div>

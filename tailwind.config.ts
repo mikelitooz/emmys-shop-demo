@@ -5,28 +5,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        /* ── K.E.S. Bathrooms Brand ────────── */
-        forest:        "#0D9488", // Rich Teal (Primary)
-        "forest-light":"#14B8A6", // Bright Aqua
-        moss:          "#0F766E", // Deep Teal
-        wheat:         "#94A3B8", // Cool Slate (Secondary)
-        ivory:         "#F8FAFC", // Clean White
-        linen:         "#F1F5F9",
+        /* ── Right Price Carpets Brand ────────── */
+        forest:        "#B91C1C", // Rich Red (Primary — Boro red)
+        "forest-light":"#DC2626", // Bright Red
+        moss:          "#991B1B", // Deep Red
+        wheat:         "#FCD34D", // Warm Gold (Secondary)
+        ivory:         "#FFFBEB", // Warm Cream
+        linen:         "#FEF3C7",
         cream:         "#FFFFFF",
-        charcoal:      "#0F172A", // Slate Dark
-        graphite:      "#1E293B",
-        taupe:         "#64748B",
-        bronze:        "#475569", // Dark Slate
-        smoke:         "#E2E8F0",
+        charcoal:      "#1C1917", // Stone Dark
+        graphite:      "#292524",
+        taupe:         "#78716C",
+        bronze:        "#A16207", // Deep Gold
+        smoke:         "#E7E5E4",
       },
       fontFamily: {
-        display: ["var(--font-display)", "sans-serif"], // Bathrooms look better with modern sans-serif
+        display: ["var(--font-display)", "sans-serif"],
         body:    ["var(--font-body)", "sans-serif"],
       },
       boxShadow: {
-        showroom: "0 24px 70px rgba(13, 148, 136, 0.08)",
-        card:     "0 8px 30px rgba(13, 148, 136, 0.05)",
-        "card-hover": "0 16px 40px rgba(13, 148, 136, 0.1)",
+        showroom: "0 24px 70px rgba(185, 28, 28, 0.08)",
+        card:     "0 8px 30px rgba(185, 28, 28, 0.05)",
+        "card-hover": "0 16px 40px rgba(185, 28, 28, 0.1)",
       },
       borderRadius: {
         card: "12px",
