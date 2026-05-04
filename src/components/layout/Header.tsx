@@ -81,7 +81,7 @@ export function Header() {
 
           {/* Logo */}
           <Link href="/" className="hidden lg:flex items-center gap-2">
-            <span className="font-display text-3xl font-bold tracking-tight text-forest">Derbyshire</span>
+            <span className="font-display text-3xl font-bold tracking-tight text-forest">K.E.S.</span>
             <span className="font-display text-3xl font-light tracking-tight text-forest">Home Interiors</span>
           </Link>
           <Link href="/" className="lg:hidden">

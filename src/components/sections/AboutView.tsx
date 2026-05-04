@@ -10,7 +10,7 @@ export function AboutView() {
       <PageHero
         eyebrow="About the showroom"
         title="A Chesterfield furniture destination with practical local service."
-        body="This demo positions Derbyshire Suite Centre as a trusted Derby Road showroom for furniture, carpets and home essentials, with an elevated digital experience that feels ready for modern retail."
+        body="This demo positions K.E.S. Bathrooms as a trusted High St showroom for furniture, carpets and home essentials, with an elevated digital experience that feels ready for modern retail."
         image={media.showroom}
       />
       <section className="bg-ivory px-4 py-20 sm:px-6 lg:px-8">

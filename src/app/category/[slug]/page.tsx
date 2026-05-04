@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
   return {
     title: category.name,
-    description: `Shop ${category.name.toLowerCase()} from Derbyshire Suite Centre.`
+    description: `Shop ${category.name.toLowerCase()} from K.E.S. Bathrooms.`
   };
 }
 

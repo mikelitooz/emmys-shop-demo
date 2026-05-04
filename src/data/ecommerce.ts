@@ -22,143 +22,155 @@ export type Product = {
   bestSeller?: boolean;
   newArrival?: boolean;
   offer?: boolean;
-  room: "Living Room" | "Bedroom" | "Dining Room" | "Home Office";
+  room: "Living Room" | "Bedroom" | "Dining Room" | "Home Office" | "Bathroom";
 };
 
 const media = {
-  sofaA: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1500&q=85",
-  sofaB: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85",
-  chairA: "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1500&q=85",
-  chairB: "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1500&q=85",
-  wardrobeA: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?auto=format&fit=crop&w=1500&q=85",
-  bedA: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1500&q=85",
-  showroomA: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85"
+  bathA: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1500&q=85",
+  bathB: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=85",
+  showerA: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1500&q=85",
+  showerB: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1500&q=85",
+  vanityA: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=1500&q=85",
+  tapA: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1500&q=85",
+  showroomA: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85"
 };
 
 export const categories: Category[] = [
-  { slug: "lift-and-tilt", name: "Lift & Tilt Chairs", description: "Bespoke comfort and mobility support", heroImage: media.chairA },
-  { slug: "recliners", name: "Recliner Suites", description: "Ultimate relaxation and support", heroImage: media.sofaA },
-  { slug: "traditional-suites", name: "Traditional Suites", description: "Classic family-run quality", heroImage: media.sofaB },
-  { slug: "bedroom-cabinets", name: "Bedroom Cabinets", description: "Durable storage solutions", heroImage: media.wardrobeA },
-  { slug: "beds", name: "Beds", description: "Comfortable frames and mattresses", heroImage: media.bedA }
+  { slug: "baths", name: "Freestanding Baths", description: "Elegant centerpieces for luxury bathrooms", heroImage: media.bathA },
+  { slug: "showers", name: "Walk-in Showers", description: "Modern, accessible shower enclosures", heroImage: media.showerA },
+  { slug: "vanities", name: "Vanity Units", description: "Practical storage with premium basin finishes", heroImage: media.vanityA },
+  { slug: "brassware", name: "Taps & Brassware", description: "High-quality basin and bath taps", heroImage: media.tapA },
 ];
 
 export const products: Product[] = [
   {
-    slug: "clay-cross-lift-tilt-chair",
-    name: "Clay Cross Premium Lift & Tilt Chair",
-    category: "lift-and-tilt",
-    price: 899,
-    compareAtPrice: 1099,
-    badge: "Bespoke Comfort",
-    shortDescription: "Dual-motor lift and tilt chair for ultimate independence.",
-    description: "Backed by our family-run quality guarantee, this dual-motor chair offers bespoke comfort, allowing you to recline and rise with ease.",
-    dimensions: "W 82cm x D 90cm x H 105cm",
-    materials: "Premium soft-touch fabric, heavy-duty motor",
-    delivery: "Free Local Delivery & Setup",
-    images: [media.chairA, media.showroomA],
+    slug: "carrara-freestanding-oval-bath",
+    name: "Carrara Freestanding Oval Bath",
+    category: "baths",
+    price: 949,
+    compareAtPrice: 1199,
+    badge: "Showroom Exclusive",
+    shortDescription: "Smooth, contemporary oval freestanding bath.",
+    description: "Designed to be the ultimate focal point. This luxurious double-ended freestanding bath provides deep, relaxing soaks and a stunning modern silhouette.",
+    dimensions: "L 1700mm x W 800mm x H 600mm",
+    materials: "Premium Acrylic, Gloss White Finish",
+    delivery: "Full Installation Available",
+    images: [media.bathA, media.showroomA],
     featured: true,
     bestSeller: true,
     offer: true,
-    room: "Living Room"
+    room: "Bathroom"
   },
   {
-    slug: "derwent-traditional-3-piece-suite",
-    name: "Derwent Traditional 3-Piece Suite",
-    category: "traditional-suites",
-    price: 1499,
-    shortDescription: "Classic high-back suite with exceptional lumbar support.",
-    description: "Experience true family-run quality with the Derwent Suite. Built with a solid frame and traditional styling to stand the test of time.",
-    dimensions: "Sofa: W 195cm x D 95cm x H 102cm",
-    materials: "Chenille fabric, solid hardwood frame",
-    delivery: "Free Local Delivery",
-    images: [media.sofaB, media.sofaA],
+    slug: "matlock-walk-in-shower-enclosure",
+    name: "Matlock Walk-In Shower Enclosure",
+    category: "showers",
+    price: 649,
+    shortDescription: "Sleek frameless glass walk-in shower panel.",
+    description: "Bring the wet-room look to your home. Features 8mm toughened safety glass with an easy-clean coating to resist water spots.",
+    dimensions: "W 1000mm x H 1950mm",
+    materials: "8mm Toughened Glass, Chrome Profile",
+    delivery: "Full Installation Available",
+    images: [media.showerA, media.showerB],
     featured: true,
-    room: "Living Room"
+    room: "Bathroom"
   },
   {
-    slug: "ashover-power-recliner-sofa",
-    name: "Ashover Power Recliner Sofa",
-    category: "recliners",
-    price: 1199,
-    compareAtPrice: 1399,
-    shortDescription: "Smooth power reclining action at the touch of a button.",
-    description: "Bespoke comfort meets modern convenience. The Ashover provides tailored support for your legs and back.",
-    dimensions: "W 205cm x D 98cm x H 100cm",
-    materials: "Performance fabric, electric recliner mechanism",
-    delivery: "Free Local Delivery & Setup",
-    images: [media.sofaA, media.showroomA],
+    slug: "chesterfield-wall-hung-vanity",
+    name: "Chesterfield Wall-Hung Vanity Unit",
+    category: "vanities",
+    price: 499,
+    compareAtPrice: 599,
+    shortDescription: "Modern 2-drawer wall hung vanity in matte grey.",
+    description: "Maximize your floor space with this elegant wall-hung unit. Features soft-close drawers and a durable ceramic basin.",
+    dimensions: "W 600mm x D 460mm x H 500mm",
+    materials: "Moisture-resistant MDF, Ceramic Basin",
+    delivery: "Full Installation Available",
+    images: [media.vanityA, media.showroomA],
     bestSeller: true,
     offer: true,
-    room: "Living Room"
+    room: "Bathroom"
   },
   {
-    slug: "chatsworth-lift-tilt-chair",
-    name: "Chatsworth Compact Lift & Tilt",
-    category: "lift-and-tilt",
-    price: 749,
-    shortDescription: "Single-motor riser recliner perfect for smaller spaces.",
-    description: "A compact solution delivering our signature family-run quality and support without taking up too much room.",
-    dimensions: "W 76cm x D 88cm x H 102cm",
-    materials: "Durable woven fabric, reliable single motor",
-    delivery: "Free Local Delivery & Setup",
-    images: [media.chairB, media.chairA],
+    slug: "clay-cross-waterfall-basin-mixer",
+    name: "Clay Cross Waterfall Basin Mixer",
+    category: "brassware",
+    price: 129,
+    shortDescription: "Contemporary chrome waterfall tap.",
+    description: "A beautiful cascading water flow effect. Constructed from solid brass with a mirror chrome finish to resist tarnishing.",
+    dimensions: "H 155mm x Reach 110mm",
+    materials: "Solid Brass, Polished Chrome",
+    delivery: "Supply & Fit",
+    images: [media.tapA, media.vanityA],
     newArrival: true,
-    room: "Living Room"
+    room: "Bathroom"
   },
   {
-    slug: "matlock-oak-triple-wardrobe",
-    name: "Matlock Oak Triple Wardrobe",
-    category: "bedroom-cabinets",
-    price: 699,
-    shortDescription: "Spacious 3-door wardrobe with classic styling.",
-    description: "Beautifully crafted bedroom cabinetry that brings warmth and traditional elegance to your home.",
-    dimensions: "W 145cm x D 58cm x H 195cm",
-    materials: "Oak veneer, solid wood trims",
-    delivery: "Delivery in 7-14 days",
-    images: [media.wardrobeA, media.showroomA],
-    room: "Bedroom"
+    slug: "heritage-roll-top-bath",
+    name: "Heritage Roll Top Slipper Bath",
+    category: "baths",
+    price: 1099,
+    shortDescription: "Traditional slipper bath with chrome claw feet.",
+    description: "Add a touch of period elegance to your bathroom. Classic slipper design allows you to recline in total comfort.",
+    dimensions: "L 1550mm x W 750mm x H 720mm",
+    materials: "Acrylic, Chrome Plated Feet",
+    delivery: "Full Installation Available",
+    images: [media.bathB, media.bathA],
+    room: "Bathroom"
   },
   {
-    slug: "bakewell-bedside-cabinet",
-    name: "Bakewell Bedside Cabinet",
-    category: "bedroom-cabinets",
-    price: 149,
-    shortDescription: "3-drawer bedside chest with dovetail joints.",
-    description: "Built to last. This solid bedside cabinet exemplifies the family-run quality we've championed since 1983.",
-    dimensions: "W 45cm x D 40cm x H 65cm",
-    materials: "Solid pine, oak top",
-    delivery: "Delivery in 7-14 days",
-    images: [media.wardrobeA, media.bedA],
-    room: "Bedroom"
-  },
-  {
-    slug: "haddon-orthopaedic-bed",
-    name: "Haddon Orthopaedic Divan Bed",
-    category: "beds",
-    price: 599,
-    shortDescription: "Firm support divan set with storage options.",
-    description: "Bespoke comfort for your back. Includes a firm, hand-tufted mattress on a sturdy divan base.",
-    dimensions: "Double: W 135cm x L 190cm",
-    materials: "Orthopaedic spring unit, damask cover",
-    delivery: "Free Local Delivery",
-    images: [media.bedA, media.showroomA],
+    slug: "thermostatic-rain-shower-system",
+    name: "Thermostatic Rain Shower System",
+    category: "showers",
+    price: 299,
+    shortDescription: "Dual head exposed thermostatic shower valve.",
+    description: "Enjoy a spa-like drenching rain shower with the practicality of a flexible handset. Anti-scald thermostatic control.",
+    dimensions: "8\" Rain Head, Adjustable Riser Rail",
+    materials: "Solid Brass Valve, Stainless Steel Head",
+    delivery: "Full Installation Available",
+    images: [media.showerB, media.showerA],
     bestSeller: true,
-    room: "Bedroom"
+    room: "Bathroom"
+  },
+  {
+    slug: "oak-freestanding-vanity-unit",
+    name: "Derwent Oak Freestanding Vanity",
+    category: "vanities",
+    price: 549,
+    shortDescription: "Traditional 2-door floor-standing unit with basin.",
+    description: "Warm oak finish providing excellent storage for family bathrooms. Comes complete with a high-quality ceramic sink.",
+    dimensions: "W 800mm x D 460mm x H 850mm",
+    materials: "Oak Finish, Ceramic Basin",
+    delivery: "Supply & Fit",
+    images: [media.vanityA, media.showroomA],
+    room: "Bathroom"
+  },
+  {
+    slug: "led-illuminated-bathroom-mirror",
+    name: "Halo LED Illuminated Mirror",
+    category: "brassware",
+    price: 199,
+    shortDescription: "Touch-sensor backlit LED mirror with demister.",
+    description: "Never wipe a steamy mirror again. Integrated heated demister pad and cool white LED ambient lighting.",
+    dimensions: "H 700mm x W 500mm",
+    materials: "5mm Safety Glass, IP44 Rated LED",
+    delivery: "Supply & Fit",
+    images: [media.tapA, media.showerA],
+    room: "Bathroom"
   }
 ];
 
 export const promoBanners = [
-  "Free No-Obligation Home Visit Service · We bring the showroom to you",
-  "Specialists in Lift and Tilt Chairs · Bespoke comfort for your home",
-  "Independent family-run business established in 1983",
-  "Quality suites, recliners, and bedroom furniture in Chesterfield",
+  "Complete Bathroom Design & Installation in Chesterfield",
+  "Visit our Clay Cross Showroom to explore our premium suites",
+  "From 3D Design to Final Plumbing — We handle everything",
+  "Expert local fitters with years of experience",
 ];
 
 export const roomShop = [
-  { name: "Lift & Tilt", image: media.chairA, href: "/shop?category=lift-and-tilt" },
-  { name: "Suites", image: media.sofaB, href: "/shop?category=traditional-suites" },
-  { name: "Cabinets", image: media.wardrobeA, href: "/shop?category=bedroom-cabinets" }
+  { name: "Freestanding Baths", image: media.bathA, href: "/shop?category=baths" },
+  { name: "Walk-in Showers", image: media.showerA, href: "/shop?category=showers" },
+  { name: "Vanity Units", image: media.vanityA, href: "/shop?category=vanities" }
 ];
 
 export function currency(value: number): string {

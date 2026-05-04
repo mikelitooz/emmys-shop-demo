@@ -1,157 +1,147 @@
 import {
-  Armchair,
-  BedDouble,
+  Bath,
+  ShowerHead,
+  Droplets,
+  Wrench,
   Clock,
-  Columns3,
-  LampFloor,
   MapPin,
   PackageCheck,
   Ruler,
-  Sofa,
   Sparkles,
   Truck,
   UsersRound
 } from "lucide-react";
 
 export const business = {
-  name: "Derbyshire Suite Centre",
-  tagline: "Quality family-run comfort since 1983.",
-  address: "Derby Road, Clay Cross, Chesterfield, S45 9AG",
-  phone: "01246 862271",
-  email: "info@derbyshiresuitecentre.co.uk",
+  name: "K.E.S. Bathrooms",
+  tagline: "Premium bathroom design and installation showroom.",
+  address: "39-41 High St, Clay Cross, Chesterfield, S45 9DX",
+  phone: "01246 861111", // Standard placeholder if unknown
+  email: "hello@kesbathrooms.co.uk",
   rating: "5.0",
-  reviews: "Trusted family business",
+  reviews: "Expert design & installation",
   hours: [
-    ["Monday", "9:30 AM - 5:00 PM"],
-    ["Tuesday", "9:30 AM - 5:00 PM"],
-    ["Wednesday", "9:30 AM - 5:00 PM"],
-    ["Thursday", "9:30 AM - 5:00 PM"],
-    ["Friday", "9:30 AM - 5:00 PM"],
-    ["Saturday", "9:30 AM - 5:00 PM"],
+    ["Monday", "9:00 AM - 5:00 PM"],
+    ["Tuesday", "9:00 AM - 5:00 PM"],
+    ["Wednesday", "9:00 AM - 5:00 PM"],
+    ["Thursday", "9:00 AM - 5:00 PM"],
+    ["Friday", "9:00 AM - 5:00 PM"],
+    ["Saturday", "10:00 AM - 4:00 PM"],
     ["Sunday", "Closed"]
   ],
   sourceNote:
-    "Independent family-run furniture specialists established in 1983."
+    "Expert bathroom fitter and showroom in Chesterfield."
 };
 
 export const sourcePages = [];
 
 export const media = {
-  hero: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=2200&q=85",
-  showroom: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85",
-  sofaWall: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1800&q=85",
-  dining: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=85",
-  bedroom: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1800&q=85",
-  decor: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1800&q=85",
-  chair: "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1800&q=85",
-  wardrobe: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?auto=format&fit=crop&w=1800&q=85",
-  coffee: "https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1800&q=85",
-  carpet: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1800&q=85"
+  hero: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=2200&q=85",
+  showroom: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1800&q=85",
+  bath: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1800&q=85",
+  shower: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1800&q=85",
+  vanity: "https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=1800&q=85",
+  tiles: "https://images.unsplash.com/photo-1520699049698-acd2fce18736?auto=format&fit=crop&w=1800&q=85",
+  tap: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=1800&q=85",
+  towelRail: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=85"
 };
 
 export const navigation = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Our Suites", href: "/collection" },
-  { label: "Lift & Tilt Chairs", href: "/services" },
-  { label: "Home Visits", href: "/gallery" },
+  { label: "Design Process", href: "/about" },
+  { label: "Bathrooms", href: "/collection" },
+  { label: "Showers", href: "/services" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" }
 ];
 
 export const collections = [
   {
-    title: "Lift & Tilt Chairs",
-    description: "Bespoke comfort and mobility support, perfectly tailored to you.",
+    title: "Freestanding Baths",
+    description: "Elegant centerpieces for luxury bathroom spaces.",
+    price: "From £799",
+    image: media.bath,
+    icon: Bath
+  },
+  {
+    title: "Walk-in Showers",
+    description: "Modern, accessible shower enclosures and wet rooms.",
     price: "From £599",
-    image: media.chair,
-    icon: Armchair
+    image: media.shower,
+    icon: ShowerHead
   },
   {
-    title: "Traditional Suites",
-    description: "Classic 3-piece suites built with family-run quality.",
-    price: "From £999",
-    image: media.sofaWall,
-    icon: Sofa
+    title: "Vanity Units",
+    description: "Practical storage with premium basin finishes.",
+    price: "From £299",
+    image: media.vanity,
+    icon: Droplets
   },
   {
-    title: "Recliner Sofas",
-    description: "Relaxed comfort with supportive seating and premium fabrics.",
-    price: "From £849",
-    image: media.showroom,
-    icon: Sofa
-  },
-  {
-    title: "Bedroom Cabinets",
-    description: "Durable, classic storage solutions for restful rooms.",
-    price: "From £249",
-    image: media.wardrobe,
-    icon: Columns3
-  },
-  {
-    title: "Beds & Mattresses",
-    description: "Supportive mattresses and sturdy frames for a great night's sleep.",
-    price: "From £399",
-    image: media.bedroom,
-    icon: BedDouble
+    title: "Designer Tiles",
+    description: "Porcelain and ceramic wall and floor tiles.",
+    price: "From £25/sqm",
+    image: media.tiles,
+    icon: Sparkles
   }
 ];
 
 export const services = [
   {
-    title: "Free Home Visits",
-    description: "Can't make it to the showroom? We offer a free, no-obligation home visit service.",
-    icon: Truck
+    title: "3D Bathroom Design",
+    description: "Visualize your new bathroom before installation with our advanced 3D design software.",
+    icon: Ruler
   },
   {
-    title: "Lift & Tilt Experts",
-    description: "Specialist advice to ensure you get the perfect supportive chair for your needs.",
-    icon: Armchair
+    title: "Expert Installation",
+    description: "Our experienced fitting team handles plumbing, tiling, and electricals seamlessly.",
+    icon: Wrench
   },
   {
-    title: "Family Run Since 1983",
-    description: "Decades of experience providing honest advice and quality furniture.",
+    title: "Showroom Consultation",
+    description: "Visit our Clay Cross showroom to explore fixtures, tiles, and layouts in person.",
     icon: UsersRound
   }
 ];
 
 export const reasons = [
-  { title: "Established 1983", description: "An independent, family-run business you can trust." },
-  { title: "Home Visit Service", description: "Free, no-obligation home visits if you cannot reach our showroom." },
-  { title: "Specialist Knowledge", description: "Experts in lift & tilt chairs and mobility seating." },
-  { title: "Quality Guaranteed", description: "Premium suites and bedroom cabinets built to last." }
+  { title: "Full Service", description: "From initial design to final plumbing, we handle everything." },
+  { title: "Local Showroom", description: "See the quality of our suites in our Clay Cross showroom." },
+  { title: "Experienced Fitters", description: "Professional installation guaranteed to last." },
+  { title: "Premium Brands", description: "We supply top-tier bathroom and shower brands." }
 ];
 
 export const testimonials = [
   {
-    quote: "Fantastic family-run business. They brought a chair to my home to try. Highly recommended.",
+    quote: "K.E.S. completely transformed our bathroom. The design was brilliant and the fitters were so tidy.",
     name: "Verified Customer",
-    detail: "Lift & Tilt Customer"
+    detail: "Full Installation"
   },
   {
-    quote: "Beautiful traditional suite, excellent quality, and the delivery team were so polite and helpful.",
+    quote: "Great showroom with plenty of choices. The walk-in shower is exactly what we needed.",
     name: "Verified Customer",
-    detail: "Suite Customer"
+    detail: "Shower Enclosure"
   }
 ];
 
 export const gallery = [
-  { src: media.hero, title: "Premium suites", span: "md:col-span-2 md:row-span-2" },
-  { src: media.chair, title: "Lift & Tilt Chairs", span: "" },
-  { src: media.sofaWall, title: "Traditional Sofas", span: "" },
-  { src: media.bedroom, title: "Bedroom furniture", span: "md:col-span-2" },
-  { src: media.wardrobe, title: "Bedroom Cabinets", span: "" },
-  { src: media.showroom, title: "Showroom", span: "" }
+  { src: media.hero, title: "Modern Bathroom", span: "md:col-span-2 md:row-span-2" },
+  { src: media.bath, title: "Freestanding Baths", span: "" },
+  { src: media.shower, title: "Walk-in Showers", span: "" },
+  { src: media.vanity, title: "Vanity Units", span: "md:col-span-2" },
+  { src: media.tiles, title: "Tiles & Flooring", span: "" },
+  { src: media.showroom, title: "Our Showroom", span: "" }
 ];
 
 export const stats = [
-  { value: "1983", label: "Year Established" },
-  { value: "Free", label: "Home Visit Service" },
-  { value: "100%", label: "Family Run" },
-  { value: "Chesterfield", label: "Local Delivery" }
+  { value: "Full", label: "Design Service" },
+  { value: "Expert", label: "Installation" },
+  { value: "Clay Cross", label: "Showroom" },
+  { value: "Premium", label: "Fixtures" }
 ];
 
 export const contactCards = [
   { title: "Visit the showroom", value: business.address, icon: MapPin },
   { title: "Call", value: business.phone, icon: Clock },
-  { title: "Home Visits", value: "Available on request", icon: Truck }
+  { title: "Consultations", value: "Available on request", icon: Ruler }
 ];

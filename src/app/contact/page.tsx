@@ -3,7 +3,7 @@ import { ContactView } from "@/components/sections/ContactView";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact Derbyshire Suite Centre, view opening hours and plan a showroom visit in Chesterfield."
+  description: "Contact K.E.S. Bathrooms, view opening hours and plan a showroom visit in Chesterfield."
 };
 
 export default function ContactPage() {

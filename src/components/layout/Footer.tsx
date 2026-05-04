@@ -29,11 +29,11 @@ export function Footer() {
         {/* Brand */}
         <div>
           <Link href="/" className="block">
-            <span className="font-display text-2xl font-bold text-white">Derbyshire</span>{" "}
+            <span className="font-display text-2xl font-bold text-white">K.E.S.</span>{" "}
             <span className="font-display text-2xl font-light text-white">Home Interiors</span>
           </Link>
           <p className="mt-3 text-sm leading-7">
-            Handpicked furniture, carpets and home styling for Chesterfield and South Derbyshire homes. Visit our Derby Road showroom.
+            Handpicked furniture, carpets and home styling for Chesterfield and South K.E.S. homes. Visit our High St showroom.
           </p>
           <div className="mt-4 space-y-1.5 text-sm">
             <p className="flex items-center gap-2">
@@ -89,7 +89,7 @@ export function Footer() {
 
       {/* ── Bottom bar ────────────────────────────── */}
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-ivory/40 sm:px-6 lg:px-8">
-        <p>© {new Date().getFullYear()} Derbyshire Suite Centre. All rights reserved. 264 Derby Road, Chesterfield S2 4DL.</p>
+        <p>© {new Date().getFullYear()} K.E.S. Bathrooms. All rights reserved. 264 High St, Chesterfield S2 4DL.</p>
       </div>
     </footer>
   );

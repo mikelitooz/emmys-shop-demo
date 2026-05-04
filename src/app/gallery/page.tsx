@@ -3,7 +3,7 @@ import { GalleryView } from "@/components/sections/GalleryView";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "A premium furniture showroom gallery experience for Derbyshire Suite Centre."
+  description: "A premium furniture showroom gallery experience for K.E.S. Bathrooms."
 };
 
 export default function GalleryPage() {

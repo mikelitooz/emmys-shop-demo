@@ -5,30 +5,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        /* ── Derbyshire Suite Centre Brand ────────── */
-        // We keep the variable names the same so the components don't break, 
-        // but inject the Navy & Gold hex codes.
-        forest:        "#0F2041", // Deep Navy Blue (Primary)
-        "forest-light":"#1D335E", // Lighter Navy
-        moss:          "#2A4474", // Soft Navy
-        wheat:         "#D4AF37", // Warm Gold (Secondary/Accent)
-        ivory:         "#F8F9FA",
+        /* ── K.E.S. Bathrooms Brand ────────── */
+        forest:        "#0D9488", // Rich Teal (Primary)
+        "forest-light":"#14B8A6", // Bright Aqua
+        moss:          "#0F766E", // Deep Teal
+        wheat:         "#94A3B8", // Cool Slate (Secondary)
+        ivory:         "#F8FAFC", // Clean White
         linen:         "#F1F5F9",
-        cream:         "#F8FAFC",
-        charcoal:      "#0A1128", // Deep Dark Navy/Black
+        cream:         "#FFFFFF",
+        charcoal:      "#0F172A", // Slate Dark
         graphite:      "#1E293B",
         taupe:         "#64748B",
-        bronze:        "#B8860B", // Dark Gold
+        bronze:        "#475569", // Dark Slate
         smoke:         "#E2E8F0",
       },
       fontFamily: {
-        display: ["var(--font-display)", "serif"],
+        display: ["var(--font-display)", "sans-serif"], // Bathrooms look better with modern sans-serif
         body:    ["var(--font-body)", "sans-serif"],
       },
       boxShadow: {
-        showroom: "0 24px 70px rgba(10, 17, 40, 0.14)",
-        card:     "0 8px 30px rgba(10, 17, 40, 0.07)",
-        "card-hover": "0 16px 40px rgba(10, 17, 40, 0.12)",
+        showroom: "0 24px 70px rgba(13, 148, 136, 0.08)",
+        card:     "0 8px 30px rgba(13, 148, 136, 0.05)",
+        "card-hover": "0 16px 40px rgba(13, 148, 136, 0.1)",
       },
       borderRadius: {
         card: "12px",
