@@ -181,7 +181,7 @@ export const products: Product[] = [
 ];
 
 export const promoBanners = [
-  "Quality carpets & flooring at unbeatable prices in Middlesbrough",
+  "Quality carpets & flooring at unbeatable prices in Clay Cross",
   "Over 30 rolls of carpet in stock — call in today!",
   "Snap finance available — spread the cost of your new floor",
   "Free measuring service — book your home visit now",

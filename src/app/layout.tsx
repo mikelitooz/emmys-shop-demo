@@ -22,13 +22,13 @@ const body = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://right-price-carpets-demo.vercel.app"),
   title: {
-    default: "Right Price Carpets | Carpets & Flooring for Middlesbrough",
+    default: "Right Price Carpets | Carpets & Flooring for Clay Cross",
     template: "%s | Right Price Carpets",
   },
   description:
-    "Quality carpets, laminate, LVT flooring and artificial grass for Middlesbrough and Teesside homes. Visit our Middlesbrough showroom or shop online.",
+    "Quality carpets, laminate, LVT flooring and artificial grass for Clay Cross and Teesside homes. Visit our Clay Cross showroom or shop online.",
   openGraph: {
-    title: "Right Price Carpets | Carpets & Flooring for Middlesbrough",
+    title: "Right Price Carpets | Carpets & Flooring for Clay Cross",
     description:
       "Browse carpets, laminate, LVT, vinyl and artificial grass. Quality flooring for Teesside homes.",
     type: "website",

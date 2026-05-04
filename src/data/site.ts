@@ -14,22 +14,22 @@ import {
 export const business = {
   name: "Right Price Carpets",
   tagline: "Quality carpets & flooring at unbeatable prices.",
-  address: "20 Cumberland Road, Linthorpe, Middlesbrough, TS5 6HZ",
-  phone: "01642 871888",
-  email: "info@right-pricecarpets.co.uk",
+  address: "87 High St, Clay Cross, Chesterfield, S45 9DZ",
+  phone: "07976 320250",
+  email: "info@rightpricecarpets.co.uk",
   rating: "4.8",
-  reviews: "30+ years in the trade",
+  reviews: "Trusted local flooring specialist",
   hours: [
-    ["Monday", "9:00 AM - 5:00 PM"],
-    ["Tuesday", "9:00 AM - 5:00 PM"],
-    ["Wednesday", "9:00 AM - 5:00 PM"],
-    ["Thursday", "9:00 AM - 5:00 PM"],
-    ["Friday", "9:00 AM - 5:00 PM"],
+    ["Monday", "Closed"],
+    ["Tuesday", "9:30 AM - 5:00 PM"],
+    ["Wednesday", "9:30 AM - 5:00 PM"],
+    ["Thursday", "9:30 AM - 5:00 PM"],
+    ["Friday", "9:30 AM - 5:00 PM"],
     ["Saturday", "9:30 AM - 4:00 PM"],
     ["Sunday", "Closed"]
   ],
   sourceNote:
-    "Family-run flooring specialists in Middlesbrough with over 30 years experience."
+    "Family-run flooring specialists on High St, Clay Cross, Chesterfield."
 };
 
 export const sourcePages = [];

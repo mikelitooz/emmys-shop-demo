@@ -21,7 +21,7 @@ const heroSlides = [
     alt: "Luxury carpet showroom display",
     tag: "30+ years experience",
     headline: "Quality carpets at the right price",
-    copy: "Over 30 rolls in stock from Cormar, Regency, Abingdon and more. Visit our Middlesbrough showroom or call for a free measure.",
+    copy: "Over 30 rolls in stock from Cormar, Regency, Abingdon and more. Visit our Clay Cross showroom or call for a free measure.",
     primaryCta: { label: "Shop all flooring", href: "/shop" },
     secondaryCta: { label: "View offers", href: "/shop?offer=true" },
   },

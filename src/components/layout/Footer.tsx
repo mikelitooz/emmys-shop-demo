@@ -33,7 +33,7 @@ export function Footer() {
             <span className="font-display text-2xl font-light text-white">Home Interiors</span>
           </Link>
           <p className="mt-3 text-sm leading-7">
-            Quality carpets, laminate, LVT and flooring for Middlesbrough and Teesside homes. Visit our Middlesbrough showroom.
+            Quality carpets, laminate, LVT and flooring for Clay Cross and Teesside homes. Visit our Clay Cross showroom.
           </p>
           <div className="mt-4 space-y-1.5 text-sm">
             <p className="flex items-center gap-2">
@@ -89,7 +89,7 @@ export function Footer() {
 
       {/* ── Bottom bar ────────────────────────────── */}
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-ivory/40 sm:px-6 lg:px-8">
-        <p>© {new Date().getFullYear()} Right Price Carpets. All rights reserved. 20 Cumberland Road, Linthorpe, Middlesbrough TS5 6HZ.</p>
+        <p>© {new Date().getFullYear()} Right Price Carpets. All rights reserved. 87 High St, Clay Cross, Chesterfield S45 9DZ.</p>
       </div>
     </footer>
   );
