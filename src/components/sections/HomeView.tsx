@@ -20,9 +20,9 @@ type HomeViewProps = {
 const heroSlides = [
   {
     image: "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=2000&q=85",
-    alt: "Luxury carpet showroom display",
+    alt: "Luxury furniture showroom display",
     tag: "30+ years experience",
-    headline: "Quality carpets at the right price",
+    headline: "Beautiful furniture for every room",
     copy: "Over 30 rolls in stock from Cormar, Regency, Abingdon and more. Visit our Sheffield showroom or call for a free measure.",
     primaryCta: { label: "Shop all furniture", href: "/shop" },
     secondaryCta: { label: "View offers", href: "/shop?offer=true" },
@@ -294,7 +294,7 @@ export function HomeView({ products, categories }: HomeViewProps) {
               Furnish your whole home with style
             </h2>
             <p className="mx-auto mt-3 max-w-lg text-sm leading-7 text-white/70">
-              Mix categories and unlock bundle pricing. Carpets, laminate, LVT and vinyl — all under one roof.
+              Mix categories and unlock bundle pricing. Sofas, beds, dining sets and decor — all under one roof.
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <Link href="/shop" className="inline-flex items-center gap-2 rounded-lg bg-wheat px-6 py-3 text-sm font-bold text-forest transition-colors hover:bg-wheat/90">

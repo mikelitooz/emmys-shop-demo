@@ -20,7 +20,7 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://right-price-carpets-demo.vercel.app"),
+  metadataBase: new URL("https://emmys-shop-demo.vercel.app"),
   title: {
     default: "Emmy's Shop | Boutique Furniture for Sheffield",
     template: "%s | Emmy's Shop",

@@ -30,7 +30,7 @@ export function Hero() {
                 Beautiful furniture for homes that feel complete.
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-pretty text-ivory/80">
-                Sofas, beds, wardrobes, dining sets, carpets and home essentials from a local Stubbin Lane showroom
+                Sofas, beds, wardrobes, dining sets and home essentials from a local Stubbin Lane showroom
                 with friendly advice, delivery and assembly support.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">

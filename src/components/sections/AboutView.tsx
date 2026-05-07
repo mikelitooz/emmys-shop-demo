@@ -44,7 +44,7 @@ export function AboutView() {
             {[
               ["Location", business.address],
               ["Rating", `${business.rating} from ${business.reviews}`],
-              ["Offer", "Furniture, carpets, home essentials, delivery and assembly"]
+              ["Offer", "Furniture, home essentials, delivery and assembly"]
             ].map(([title, value]) => (
               <div key={title} className="rounded-[1.5rem] bg-white p-6 shadow-card">
                 <p className="text-sm font-bold uppercase tracking-[0.2em] text-bronze">{title}</p>

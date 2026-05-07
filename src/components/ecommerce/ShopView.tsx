@@ -67,7 +67,7 @@ export function ShopView({
       <p className="mt-2 text-sm text-taupe">
         {offerOnly
           ? "Handpicked offers on sofas, beds, dining sets and decor from Emmy's Shop."
-          : "Browse carpets, laminate, LVT, vinyl and more from Emmy's Shop."}
+          : "Browse sofas, beds, dining, decor and more from Emmy's Shop."}
       </p>
 
       {/* ── Filter panel ─────────────────────────── */}

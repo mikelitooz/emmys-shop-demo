@@ -4,7 +4,7 @@ import { HomeView } from "@/components/sections/HomeView";
 export const metadata: Metadata = {
   title: "Emmy's Shop | Quality Boutique Furniture Sheffield",
   description:
-    "Explore sofas, beds, wardrobes, carpets, dining furniture and home styling from a polished demo website for Emmy's Shop."
+    "Explore sofas, beds, wardrobes, dining furniture and home styling from a polished demo website for Emmy's Shop."
 };
 
 import { getProducts, getCategories } from "@/data/ecommerce";

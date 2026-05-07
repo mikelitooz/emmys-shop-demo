@@ -12,7 +12,7 @@ export function CheckoutView() {
 
   const onApplyPromo = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (promoCode.trim().toLowerCase() === "rpc10") {
+    if (promoCode.trim().toLowerCase() === "emmy10") {
       setPromoMessage("Promo applied: 10% off selected lines (demo placeholder).");
       return;
     }
