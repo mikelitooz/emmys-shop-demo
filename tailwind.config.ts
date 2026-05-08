@@ -5,28 +5,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        /* ── Emmy's Shop Brand ────────── */
-        forest:        "#D9777F", // Rose Pink (Primary)
-        "forest-light":"#E59CA2", // Light Rose
-        moss:          "#C06068", // Deep Rose
-        wheat:         "#A9C1B8", // Sage Green (Secondary)
-        ivory:         "#FAF7F5", // Soft Cream/Blush
-        linen:         "#F2EBE9", // Warm neutral
+        /* ── Emmy's Shop – Navy & Champagne Gold ── */
+        forest:        "#1B2A4A", // Deep Navy (Primary)
+        "forest-light":"#2D4470", // Medium Navy
+        moss:          "#0F1D35", // Darkest Navy
+        wheat:         "#C9A96E", // Champagne Gold (Secondary)
+        ivory:         "#FAF8F5", // Warm Off-White
+        linen:         "#F0EDE8", // Soft Linen
         cream:         "#FFFFFF",
-        charcoal:      "#2D3748", // Soft Black/Slate
-        graphite:      "#4A5568", // Gray
-        taupe:         "#A0AEC0",
-        bronze:        "#8E9A8E", // Muted Sage
-        smoke:         "#E2E8F0",
+        charcoal:      "#1A1A2E", // Near Black
+        graphite:      "#4A4A5A", // Dark Gray
+        taupe:         "#8B8B99", // Muted Gray
+        bronze:        "#B8965A", // Deep Gold
+        smoke:         "#E8E6E1", // Light Warm Gray
       },
       fontFamily: {
-        display: ["var(--font-display)", "serif"], // Boutique feel
+        display: ["var(--font-display)", "serif"],
         body:    ["var(--font-body)", "sans-serif"],
       },
       boxShadow: {
-        showroom: "0 24px 70px rgba(217, 119, 127, 0.08)",
-        card:     "0 8px 30px rgba(217, 119, 127, 0.05)",
-        "card-hover": "0 16px 40px rgba(217, 119, 127, 0.1)",
+        showroom: "0 24px 70px rgba(27, 42, 74, 0.08)",
+        card:     "0 8px 30px rgba(27, 42, 74, 0.05)",
+        "card-hover": "0 16px 40px rgba(201, 169, 110, 0.12)",
       },
       borderRadius: {
         card: "12px",
